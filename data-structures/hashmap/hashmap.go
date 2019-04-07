@@ -1,7 +1,7 @@
 package hashmap
 
 import (
-	"fmt"
+//	"fmt"
 )
 
 const SIZE = 1000
@@ -12,12 +12,7 @@ const SIZE = 1000
 
 
 type HashTable struct {
-	hashTable interface{}
-}
-
-func main() {
-	nw := InitHashTable()
-	fmt.Println(nw)
+	HashTable interface{}
 }
 
 func InitHashTable() *HashTable  {
