@@ -2,10 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/adamy318/code-interview-practice/data-structures/hashmap"
+//	"github.com/adamy318/code-interview-practice/data-structures/hashmap"
+	"github.com/adamy318/code-interview-practice/data-structures/linkedlist"
 )
 
 func main() {
+	/*
 	nw := hashmap.InitHashTable()
 
 	nw.Put("test", "code")
@@ -25,4 +27,8 @@ func main() {
 
 	fmt.Println("Deleted: ", nw.Delete("brrm"))
 	fmt.Println("Deleted: ", nw.Delete("brjfm"))
+	*/
+
+	ll := linkedlist.InitLinkedList()
+	fmt.Println(ll)
 }
