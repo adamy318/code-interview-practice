@@ -21,4 +21,8 @@ func main() {
 	fmt.Println("Expected -> fish: ", nw.Get("fish"))
 	fmt.Println("Expected -> boom: ", nw.Get("boom"))
 	fmt.Println("Expected -> brrm: ", nw.Get("brrm"))
+	fmt.Println("Expected -> key does not exist: ", nw.Get("dkfjdfj"))
+
+	fmt.Println("Deleted: ", nw.Delete("brrm"))
+	fmt.Println("Deleted: ", nw.Delete("brjfm"))
 }
