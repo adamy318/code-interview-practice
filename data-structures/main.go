@@ -30,5 +30,10 @@ func main() {
 	*/
 
 	ll := linkedlist.InitLinkedList()
-	fmt.Println(ll)
+	ll.Insert(1)
+	ll.Insert(2)
+	ll.Insert(3)
+	ll.Insert(4)
+	fmt.Println(ll.PrintList())
+
 }
